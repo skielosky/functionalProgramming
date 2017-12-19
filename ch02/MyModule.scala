@@ -42,7 +42,7 @@ object MyModule {
     def main(args: Array[String]): Unit =
         println(formatAbs(-42))
         println(formatResult("factorial", 7, factorial))
-        println(findFirst(Array(7, 9, 13), (x: Int) => x ==7))
+        println(findFirst(Array(7, 9, 13), (x: Int) => x ==13))
     
     
 }
